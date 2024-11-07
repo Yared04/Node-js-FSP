@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@syncfusion/ej2-filemanager-node-filesystem": "^18.1.54"
+  }
+}
