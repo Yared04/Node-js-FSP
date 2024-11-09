@@ -16,7 +16,7 @@ var cors = require("cors");
 const pattern = /(\.\.\/)/g;
 
 const contentRootPath = yargs.argv.d;
-const staticFolderPath = path.join("../File");
+const staticFolderPath = path.join("../Images");
 
 // Serve files in that directory publicly
 app.use("/", express.static(staticFolderPath));
