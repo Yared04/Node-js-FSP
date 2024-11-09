@@ -1,16 +1,22 @@
 {
-    "role": "admin",
-    "rules": [
-        {
-            "path": "/My Images/*",
-            "isFile": true,
-            "upload": "allow"
-        },
-        {
-            "path": "Files/*",
-            "isFile": false,
-            "upload": "deny",
-            "message": "File uploads are not allowed in this folder."
-        }
-    ]
+  "role": "admin",
+  "rules": [
+    {
+      "path": "/My Images/*",
+      "isFile": true,
+      "upload": "allow"
+    },
+    {
+      "path": "Files/*",
+      "isFile": false,
+      "upload": "deny",
+      "message": "File uploads are not allowed in this folder."
+    },
+    {
+      "path": "/Templates Library/*",
+      "isFile": false,
+      "upload": "deny",
+      "message": "File uploads are not allowed in this folder."
+    }
+  ]
 }
